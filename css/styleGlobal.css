@@ -8,6 +8,17 @@ body {
 .mainContainer {
   min-height: 100vh;
 }
+
+.iconBtnActive:hover {
+  opacity: 0.8;
+}
+.iconBtnActive:active {
+  opacity: 0.5;
+}
+
+.fontSizeS {
+  font-size: 0.75rem;
+}
 /******************************************************* login *********************************************/
 .bgImage {
   background-image: url('../assets/background-img.png');
@@ -24,10 +35,10 @@ body {
   width: 100%;
 }
 .backBtn:hover {
-  opacity: 85%;
+  opacity: 0.85;
 }
 .backBtn:active {
-  opacity: 100%;
+  opacity: 1;
 }
 .formBtn {
   background-color: #262628;
@@ -39,7 +50,7 @@ body {
   opacity: 0.75;
 }
 .cactusLogo img{
-  width: 142px;
+  width: 130px;
 }
 
 /******************************************************* register *********************************************/
@@ -52,4 +63,47 @@ body {
 }
 .activeStep {
   background-color: #38b000;
+}
+
+/************************************************index*****************************************************/
+
+.cactusIcon {
+  font-size: 1.5rem;
+}
+
+.avatarImg {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+}
+.avatarContainer {
+  border-radius: 50%;
+  padding: 2px;
+  background-color: white;
+  text-decoration: none;
+}
+.avatarBorder {
+  background: linear-gradient(196.07deg, #008000 11.13%, #70E000 34.56%, #9EF01A 71.49%, #CCFF33 87.79%);
+  padding: 2px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.postMedia {
+  width: 100%;
+  height: fit-content;
+  object-fit: contain;
+}
+.postMediaBg {
+  width: 100%;
+  background-color:#262628;
+}
+.postInfo {
+  width: 90%;
+  bottom: 10px;
+}
+.bottomNavIcon {
+  color: #262628;
+}
+.bottomNavIcon img {
+  width: 40px;
 }

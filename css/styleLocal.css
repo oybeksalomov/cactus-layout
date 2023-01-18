@@ -2,3 +2,8 @@
 #storiesBar {
   overflow-x: scroll;
 }
+
+/***********************************comment*******************************************/
+#comments {
+  background-color: #f7f8fc;
+}

@@ -7,3 +7,26 @@
 #comments {
   background-color: #f7f8fc;
 }
+
+/*********************************story*********************************************/
+.storyContainer {
+  height: 100vh;
+  background-color: #262628;
+}
+.storyMedia {
+  max-height: 100%;
+  max-width: 100%;
+}
+.storyInfo {
+  height: 100%;
+  width: 100%;
+}
+.storyLengthBg {
+  height: 0.25rem;
+  margin: 0 2px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.storyLength {
+  height: 100%;
+  width: 100%;
+}

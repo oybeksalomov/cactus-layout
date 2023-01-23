@@ -15,14 +15,18 @@ body {
 .iconBtnActive {
   color: #262628;
   padding: 0 0.25rem;
-  outline: none;
   border: none;
   background-color:#26262800;
 }
-.iconBtnActive:hover {
+.aButton {
+  color: #262628;
+}
+.iconBtnActive:hover,
+.aButton:hover {
   opacity: 0.8;
 }
-.iconBtnActive:active {
+.iconBtnActive:active,
+.aButton:active {
   opacity: 0.5;
 }
 
@@ -144,8 +148,70 @@ body {
 .sendMessageInput {
   background-color:rgba(50, 50, 50, 0);
   color:white;
+  outline: none;
 }
 .sendMessageInput::placeholder {
   color: #fff;
 }
 
+/************************************************storyUpload***************************************/
+.rightButton {
+  width: 40px;
+  height: 40px;
+  background: rgba(50, 50, 50, 0.5);
+  backdrop-filter: blur(5px);
+}
+
+/**********************************************search**********************************/
+.searchInput {
+  background-color:#26262800;
+  outline: none;
+  border: none;
+  color: #595C5F;
+  font-weight: 600;
+
+}
+.searchInput::placeholder {
+  font-weight: 600;
+  color:#9797bd;
+
+}
+.searchBtn i{
+  color:#9797bd;
+}
+/*random posts*/
+.randomPost {
+  height: fit-content;
+}
+.randomPostMedia {
+  aspect-ratio: 1 / 1;
+}
+.randomPostMedia img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50%;
+}
+
+/*************************************************accaunt*********************************/
+.backWhite {
+  top: 2rem;
+  left: 1rem;
+}
+.backWhite img{
+  width: 36px;
+}
+.accBgContainer {
+  top: 6rem;
+  height: fit-content;
+  width: 100%;
+}
+.accMenuBtn {
+  top: 2rem;
+  right: 1rem;
+}
+.accAvatarImg {
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+}

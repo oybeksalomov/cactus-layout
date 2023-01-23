@@ -30,3 +30,31 @@
   height: 100%;
   width: 100%;
 }
+
+/****************************notification****************************************/
+.notificationBg {
+  background-color: #f2f3fa;
+}
+.notificationMedia {
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 5px;
+}
+/************************************accaunt*******************************/
+.accFollowBtn {
+  background-color: #43a2fa;
+  color: #fff;
+}
+.accIconActive {
+  color: #43a2fa;
+}
+.accBgImage {
+  background-image: url('../images/post-8.jpg');
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 30vh;
+  width: 100%;
+}

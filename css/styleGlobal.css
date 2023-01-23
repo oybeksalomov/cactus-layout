@@ -33,6 +33,9 @@ body {
 .fontSizeS {
   font-size: 0.75rem;
 }
+.tabIconActive {
+  color: #43a2fa;
+}
 /******************************************************* login *********************************************/
 .bgImage {
   background-image: url('../assets/background-img.png');
@@ -147,7 +150,6 @@ body {
 }
 .sendMessageInput {
   background-color:rgba(50, 50, 50, 0);
-  color:white;
   outline: none;
 }
 .sendMessageInput::placeholder {

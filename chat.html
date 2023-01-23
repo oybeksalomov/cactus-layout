@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cactus</title>
+  <!-- bootstrap icons link -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+  <!-- style css -->
+  <link rel="stylesheet" href="./css/styleGlobal.css">
+  <link rel="stylesheet" href="./css/styleLocal.css">
+</head>
+<body>
+  <div id="chat" class="mainContainer chatContainer bg-white position-relative">
+
+    <div class="chatTop position-fixed top-0">
+      <div class="container-fluid">
+        <div class="d-flex align-items-center py-2 ">
+
+          <button type="button" class="backBtn p-0 pe-2">
+            <img src="./assets/Back.png" alt="back">
+          </button>
+
+          <div class="avatarContainer">
+            <a href="#">
+              <img src="./images/profile-6.jpg" class="avatarImg" alt="profile picture">
+            </a>
+          </div>
+
+          <div class="d-flex flex-column justify-content-center px-2">
+            <p class="m-0 fw-semibold">David Murel</p>
+            <p class="fontSizeS fw-semibold opacity-50 m-0">Online</p>
+          </div>
+
+          <div class="d-flex align-items-center ms-auto">
+            <a href="./search.html" class="aButton px-2">
+              <i class="bi bi-camera-video cactusIcon"></i>
+            </a>
+
+            <a href="./notification.html" role="button" class="aButton px-2">
+              <i class="bi bi-flag cactusIcon"></i>
+            </a>
+  
+            <button  class=" iconBtnActive px-2">
+              <i class="bi bi-info-circle cactusIcon"></i>
+            </button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="pt-4">
+      <div class="container-fluid">
+        <div class="chatDate text-center position-fixed start-50 translate-middle">
+          <p class=" m-0">Seshanba 12:40 PM</p>
+        </div>
+
+        <div>
+          <div class="d-flex">
+            <div class="chatMessage py-3 px-4 bg-light me-auto rounded-top-5 rounded-end-5 mb-3">
+              <p class="m-0">Zadachani bajarib qo'ydingmi?</p>
+            </div>
+          </div>
+
+          <div class="d-flex">
+            <div class="chatMessage userMsgBg py-3 px-4 ms-auto rounded-bottom-5 rounded-start-5 mb-3">
+              <p class="m-0">Albatta</p>
+            </div>
+          </div>
+
+          <div class="d-flex">
+            <div class="chatMessage py-3 px-4 bg-light me-auto rounded-top-5 rounded-end-5 mb-3">
+              <p class="m-0">Juda yaxshi</p>
+            </div>
+          </div>
+
+          <div class="d-flex">
+            <div class="chatMessage userMsgBg py-3 px-4 ms-auto rounded-bottom-5 rounded-start-5 mb-3">
+              <p class="m-0">Lekin ancha vaqtim ketdi Lekin ancha vaqtim ketdi Lekin ancha vaqtim ketdi</p>
+            </div>
+          </div>
+
+          <div class="d-flex">
+            <div class="chatMessage py-3 px-4 bg-light me-auto rounded-top-5 rounded-end-5 mb-3">
+              <p class="m-0">Oson bo'lmaganligini bilaman</p>
+            </div>
+          </div>
+
+          <div class="d-flex">
+            <div class="chatMessage userMsgBg py-3 px-4 ms-auto rounded-bottom-5 rounded-start-5 mb-3">
+              <p class="m-0">Ha to'g'ri lekin oson bo'lmadi</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Send message  -->
+      <div class="chatMsgInputCon position-fixed">
+        <div class="container-fluid">
+          <div class="bg-light d-flex rounded-5 w-100 p-2">
+            <div class="chatInputBtn d-flex align-items-center justify-content-center rounded-circle">
+              <a href="#">
+                <i class="bi bi-camera text-white cactusIcon"></i>
+              </a>
+            </div>
+  
+            <input type="text" placeholder="Xabar..." class="chatMsgInput flex-fill px-2 border-0 rounded-start-5">
+  
+            <button  class=" iconBtnActive px-2">
+              <i class="bi bi-mic cactusIcon"></i>
+            </button>
+  
+            <button  class=" iconBtnActive px-2">
+              <i class="bi bi-image cactusIcon"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- bootstrap js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+</html>

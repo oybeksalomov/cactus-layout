@@ -47,9 +47,7 @@
   background-color: #43a2fa;
   color: #fff;
 }
-.accIconActive {
-  color: #43a2fa;
-}
+
 .accBgImage {
   background-image: url('../images/post-8.jpg');
   background-position: top;
@@ -57,4 +55,67 @@
   background-repeat: no-repeat;
   height: 30vh;
   width: 100%;
+}
+
+/********************************message***************************************/
+.msgNotifCon {
+  width: 1.8rem;
+  height: 1.8rem;
+  background-color: #43a2fa;
+}
+.msgActive {
+  color: #43a2fa;
+}
+.msgRead {
+  display: none;
+}
+.msgPencil {
+  background-color: #43a2fa;
+  width: 45px;
+  height: 45px;
+
+}
+.msgPencilCon {
+  max-width: 425px;
+  width: inherit;
+  bottom: 12px;
+  padding-right: 12px;
+}
+
+/*******************************************chat*******************************/
+.userMsgBg {
+  background-color: #38b000;
+  color: #fff;
+}
+.chatMessage {
+  max-width: 60%;
+}
+.chatTop {
+  max-width: 425px;
+  width: 100%;
+  background-color: #fff;
+  z-index: 100;
+}
+.chatContainer {
+  padding-top: 80px;
+  padding-bottom: 60px;
+}
+.chatMsgInputCon {
+  max-width: 425px;
+  width: 100%;
+  bottom: 0.5rem;
+
+}
+.chatInputBtn {
+  background-color: #38b000;
+  width: 36px;
+  height: 36px;
+}
+.chatMsgInput {
+  background-color:rgba(50, 50, 50, 0);
+  outline: none;
+}
+.chatDate {
+  color:#9797bd;
+  top: 85px;
 }
